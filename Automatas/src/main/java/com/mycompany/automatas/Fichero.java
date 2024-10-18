@@ -17,7 +17,7 @@ public class Fichero {
             while ((linea = br.readLine()) != null) {
                 listas.AgregarLista(linea); 
             }
-            System.out.println("Elementos agregados desde el archivo: " + nombre_archivo);
+            //System.out.println("Elementos agregados desde el archivo: " + nombre_archivo);
         } catch (IOException e) {
             System.out.println("Error al leer el archivo: " + e.getMessage());
         }

@@ -12,7 +12,7 @@ public class Listas {
         */
         
         lista.add(elemento);
-        System.out.println("Elemento agregado: " + elemento);
+        //System.out.println("Elemento agregado: " + elemento);
     }
     public void buscarLista(String elemento) {
         /*
